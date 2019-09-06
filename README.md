@@ -1,4 +1,4 @@
-# translate-inteior
+# translate-interior
 Unity
 https://drive.google.com/open?id=1YQw84hUYpocDrubHjg2Cmjy7QXl7s-ft
 
