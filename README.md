@@ -2,8 +2,7 @@
 Unity
 https://drive.google.com/open?id=1YQw84hUYpocDrubHjg2Cmjy7QXl7s-ft
 
-model
-
+## 学習済みモデル
 stargan
 https://drive.google.com/open?id=1CNzj5Lmk3oR4eh-9PQM5sw4VXUP2bQqP
 
