@@ -117,17 +117,10 @@ Pythonサーバでの処理を以下の図に示す．
 
 ![server](images/server.png)
 
-
-
-
-
-
-
 ### 実行結果（床を海へ変換）：
 
 ![trans](images/trans.png)
 
-​									入力画像																			出力画像
 
 ## Unity処理
 
@@ -232,7 +225,6 @@ https://qiita.com/oishihiroaki/items/bb2977c72052f5dd5bd9
 | /cmr01 | 右カメラの画像データ |
 | /label |  ターゲットドメイン  |
 
-![communicate_](images/communicate_.png)
 
 ### ヘッダの判定方法
 
