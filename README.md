@@ -48,16 +48,6 @@ ARとGANを組み合わせて室内の景色を変化させるシステムを開
 - StarGAN
 - DeepLabV3+
 
-
-
-
-
-
-
-
-
-
-
 ## 学習用データセット
 
 ### StarGAN用
@@ -95,7 +85,7 @@ ADE20Kはインデックスカラー表現の8bit画像になっているので�
 
 https://github.com/CSAILVision/semantic-segmentation-pytorch/blob/master/data/object150_info.csv
 
-![ade20k_ex](C:\Users\nishimura-VR-02\Downloads\pawapo-figure\ade20k_ex.png)
+![ade20k_ex](images/ade20k_ex.png)
 
 
 
@@ -105,7 +95,7 @@ Unity で表示を行い，Pythonサーバで変換処理を行う．
 
 システムの構成を以下の図に示す．
 
-![system](C:\Users\nishimura-VR-02\Downloads\pawapo-figure\system.png)
+![system](images/system.png)
 
 ## Python処理
 
@@ -118,7 +108,7 @@ Pythonサーバでの処理を以下の図に示す．
 3. マスク画像を使用して元画像と変換画像の合成を行い，合成画像を作成する
 4. 合成画像をJPEGでエンコードしてUnity側にバイト配列で送信する
 
-![server](C:\Users\nishimura-VR-02\Downloads\pawapo-figure\server.png)
+![server](images/server.png)
 
 
 
@@ -128,7 +118,7 @@ Pythonサーバでの処理を以下の図に示す．
 
 ### 実行結果（床を海へ変換）：
 
-![trans](C:\Users\nishimura-VR-02\Downloads\trans.png)
+![trans](images/trans.png)
 
 ​									入力画像																			出力画像
 
@@ -183,7 +173,7 @@ main.pyと同じ階層にdataという名前のディレクトリを作成し，
 
 　元画像　　黒床　　 レンガ壁    　白床		　白壁			 木床		    木壁		　　海		       空
 
-![stargan_exp](C:\Users\nishimura-VR-02\Downloads\pawapo-figure\stargan_exp.png)
+![stargan_exp](images/stargan_exp.png)
 
 ## DeepLabV3+
 
@@ -197,7 +187,7 @@ mypath.pyに記述してある場所にデータセットを置く．
 
 ### 実行結果
 
-<img src="C:\Users\nishimura-VR-02\Downloads\seg (2).png" alt="seg (2)"  />
+![seg2](images/seg.png)
 
 ## データ通信
 
@@ -235,7 +225,7 @@ https://qiita.com/oishihiroaki/items/bb2977c72052f5dd5bd9
 | /cmr01 | 右カメラの画像データ |
 | /label |  ターゲットドメイン  |
 
-![communicate_](C:\Users\nishimura-VR-02\Downloads\communicate_.png)
+![communicate_](images/communicate_.png)
 
 ### ヘッダの判定方法
 
